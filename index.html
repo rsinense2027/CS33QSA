@@ -31,16 +31,21 @@
 
         #startButton:hover {
             background-color: #FFD700;
+            margin-top: 20px;
         }
     </style>
 </head>
 <body>
     <h1>Welcome to Pac-Man</h1>
     <button id="startButton" onclick="startGame()">Start Game</button>
+    <button id="startButton" onclick="info()">Developers Page</button>
 
     <script>
         function startGame() {
             window.location.href = "game.html";
+        }
+        function info() {
+            window.location.href = "info.html";
         }
     </script>
 </body>
